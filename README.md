@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dotfiles
+# Hyprland + Gruvbox
 
 **A minimal, keyboard-driven Arch Linux + Hyprland desktop.**
 
