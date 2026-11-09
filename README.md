@@ -10,6 +10,7 @@
 [![Neovim](https://img.shields.io/badge/Neovim-LazyVim-57A143?style=flat-square&logo=neovim&logoColor=white)](https://github.com/LazyVim/LazyVim)
 [![Gruvbox](https://img.shields.io/badge/Theme-Gruvbox-D79921?style=flat-square)](https://github.com/morhetz/gruvbox)
 [![Lua](https://img.shields.io/badge/Config-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)](https://www.lua.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
 </div>
 
@@ -71,6 +72,7 @@ Personal dotfiles for my Arch Linux + Hyprland laptop, versioned as a single Git
 ├── wallpapers/           # Wallpapers (see note below)
 ├── screenshots/          # Desktop previews
 ├── README.md             # This file
+├── LICENSE               # MIT License
 └── backup-dotfiles.sh    # Backup helper
 ```
 
@@ -163,4 +165,4 @@ Hyprland is configured with 4 px inner / 8 px outer gaps, 8 px window rounding, 
 
 ## License
 
-These are personal configuration files shared for reference. Feel free to borrow from them for your own setup.
+Released under the [MIT License](LICENSE). You are free to use, modify, and distribute these configurations, provided the copyright notice is retained.

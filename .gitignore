@@ -10,6 +10,7 @@
 # Repository files
 !/.gitignore
 !/README.md
+!/LICENSE
 !/backup-dotfiles.sh
 
 # Hyprland & desktop customization
