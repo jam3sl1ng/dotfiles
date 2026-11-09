@@ -1,0 +1,43 @@
+* {
+font-family: "JetBrainsMono Nerd Font", sans-serif;
+font-size: 16px;
+background-image: none;
+}
+
+window {
+	background-color: rgba(40, 40, 40, 0.85); /* #282828 */
+}
+
+button {
+	color: #ebdbb2;              /* light text */
+	background-color: #3c3836;   /* panel */
+	border: 2px solid #504945;
+	border-radius: 12px;
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+}
+
+button:hover,
+button:focus {
+	color: #282828;
+	background-color: #fabd2f;   /* Gruvbox yellow */
+	border-color: #fabd2f;
+	outline: none;
+}
+
+/* Match these IDs to the labels in your layout */
+#lock:hover     { background-color: #83a598; } /* blue */
+#logout:hover   { background-color: #fe8019; } /* orange */
+#shutdown:hover { background-color: #fb4934; } /* red */
+#reboot:hover   { background-color: #b8bb26; } /* green */
+
+/*
+#lock     { background-image: url("/usr/share/wlogout/icons/lock.png"); }
+#logout   { background-image: url("/usr/share/wlogout/icons/logout.png"); }
+#suspend  { background-image: url("/usr/share/wlogout/icons/suspend.png"); }
+#hibernate { background-image: url("/usr/share/wlogout/icons/hibernate.png"); }
+#shutdown { background-image: url("/usr/share/wlogout/icons/shutdown.png"); }
+#reboot   { background-image: url("/usr/share/wlogout/icons/reboot.png"); }
+*/

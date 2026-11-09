@@ -1,0 +1,54 @@
+# =========================================================
+#  Whitelist: track only desktop / Linux customization
+# =========================================================
+# Ignore everything at the repository root first, then
+# explicitly allow the folders and files that belong in
+# this repository. New top-level folders are ignored until
+# they are added below.
+/*
+
+# Repository files
+!/.gitignore
+!/README.md
+!/backup-dotfiles.sh
+
+# Hyprland & desktop customization
+!/hypr/
+!/waybar/
+!/rofi/
+!/dunst/
+!/kitty/
+!/foot/
+!/wlogout/
+!/kanshi/
+!/starship.toml
+
+# Desktop visuals & system information
+!/btop/
+!/cava/
+!/fastfetch/
+!/wallpapers/
+!/screenshots/
+
+# Editors & KDE applications
+!/nvim/
+!/KDE/
+!/kate/
+!/katerc
+!/kwriterc
+!/dolphinrc
+
+# =========================================================
+#  KDE runtime state
+# =========================================================
+# Keep Kate's configuration and external tools, not its session state
+/kate/sessions/
+
+# =========================================================
+#  Editor & OS noise
+# =========================================================
+*.kate-swp
+*.swp
+*.swo
+*~
+.DS_Store
