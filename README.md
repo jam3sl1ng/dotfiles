@@ -27,22 +27,22 @@ Personal dotfiles for my Arch Linux + Hyprland laptop, versioned as a single Git
 
 ## Stack
 
-| Category | Tool |
-| --- | --- |
-| **Window manager** | [Hyprland](https://hypr.land) — Lua configuration |
-| **Status bar** | [Waybar](https://github.com/Alexays/Waybar) |
-| **Launcher** | [Rofi](https://github.com/davatorium/rofi) — [adi1090x](https://github.com/adi1090x/rofi) themes |
-| **Notifications** | [Dunst](https://dunst-project.org) |
-| **Terminals** | [Kitty](https://sw.kovidgoyal.net/kitty/) (primary), [Foot](https://codeberg.org/dnkl/foot) |
-| **Shell prompt** | [Starship](https://starship.rs) |
-| **Editors** | [Neovim](https://neovim.io) (LazyVim), [Kate](https://kate-editor.org) |
-| **File managers** | [Dolphin](https://apps.kde.org/dolphin/), [Ranger](https://github.com/ranger/ranger) (keybind) |
-| **Session menu** | [wlogout](https://github.com/ArtsyMacaw/wlogout) |
-| **Wallpaper** | [hyprpaper](https://github.com/hyprwm/hyprpaper) |
-| **Display profiles** | [Kanshi](https://sr.ht/~emersion/kanshi/) |
-| **System info** | [fastfetch](https://github.com/fastfetch-cli/fastfetch), [btop](https://github.com/aristocratos/btop), [Cava](https://github.com/karlstav/cava) |
-| **Theme** | Gruvbox Dark |
-| **Font** | JetBrains Mono Nerd Font |
+| Category             | Tool                                                                                                                                            |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Window manager**   | [Hyprland](https://hypr.land) — Lua configuration                                                                                               |
+| **Status bar**       | [Waybar](https://github.com/Alexays/Waybar)                                                                                                     |
+| **Launcher**         | [Rofi](https://github.com/davatorium/rofi) — [adi1090x](https://github.com/adi1090x/rofi) themes                                                |
+| **Notifications**    | [Dunst](https://dunst-project.org)                                                                                                              |
+| **Terminals**        | [Kitty](https://sw.kovidgoyal.net/kitty/) (primary), [Foot](https://codeberg.org/dnkl/foot)                                                     |
+| **Shell prompt**     | [Starship](https://starship.rs)                                                                                                                 |
+| **Editors**          | [Neovim](https://neovim.io) (LazyVim), [Kate](https://kate-editor.org)                                                                          |
+| **File managers**    | [Dolphin](https://apps.kde.org/dolphin/), [Ranger](https://github.com/ranger/ranger) (keybind)                                                  |
+| **Session menu**     | [wlogout](https://github.com/ArtsyMacaw/wlogout)                                                                                                |
+| **Wallpaper**        | [hyprpaper](https://github.com/hyprwm/hyprpaper)                                                                                                |
+| **Display profiles** | [Kanshi](https://sr.ht/~emersion/kanshi/)                                                                                                       |
+| **System info**      | [fastfetch](https://github.com/fastfetch-cli/fastfetch), [btop](https://github.com/aristocratos/btop), [Cava](https://github.com/karlstav/cava) |
+| **Theme**            | Gruvbox Dark                                                                                                                                    |
+| **Font**             | JetBrains Mono Nerd Font                                                                                                                        |
 
 ## Repository layout
 
@@ -80,23 +80,24 @@ Personal dotfiles for my Arch Linux + Hyprland laptop, versioned as a single Git
 
 `SUPER` is the main modifier.
 
-| Binding | Action |
-| --- | --- |
-| `SUPER + Return` | Open terminal (Kitty) |
-| `SUPER + Space` | Application launcher (Rofi) |
-| `SUPER + B` | Open browser (Firefox) |
-| `SUPER + E` | File manager (Ranger) |
-| `SUPER + Q` | Close active window |
-| `SUPER + F` | Toggle fullscreen |
-| `SUPER + V` | Toggle floating |
-| `SUPER + P` | Toggle pseudotiling |
-| `SUPER + M` | Session menu (wlogout) |
-| `SUPER + 1` … `SUPER + 0` | Switch to workspace 1–10 |
-| `SUPER + Scroll Up/Down` | Cycle workspaces |
-| `SUPER + Shift + S` | Screenshot region to clipboard |
-| `SUPER + LMB / RMB` | Drag / resize window |
-| `XF86Audio*` | Volume up, down, mute |
-| `XF86MonBrightness*` | Brightness up, down |
+| Binding                   | Action                         |
+| ------------------------- | ------------------------------ |
+| `SUPER + Return`          | Open terminal (Kitty)          |
+| `SUPER + Space`           | Application launcher (Rofi)    |
+| `SUPER + B`               | Open browser (Firefox)         |
+| `SUPER + E`               | File manager (Ranger)          |
+| `SUPER + Q`               | Close active window            |
+| `SUPER + F`               | Toggle fullscreen              |
+| `SUPER + V`               | Toggle floating                |
+| `SUPER + P`               | Toggle pseudotiling            |
+| `SUPER + M`               | Session menu (wlogout)         |
+| `SUPER + L`               | Screen lock (hyprlock)         |
+| `SUPER + 1` … `SUPER + 0` | Switch to workspace 1–10       |
+| `SUPER + Scroll Up/Down`  | Cycle workspaces               |
+| `SUPER + Shift + S`       | Screenshot region to clipboard |
+| `SUPER + LMB / RMB`       | Drag / resize window           |
+| `XF86Audio*`              | Volume up, down, mute          |
+| `XF86MonBrightness*`      | Brightness up, down            |
 
 ## Installation
 
@@ -122,7 +123,7 @@ Core packages (Arch Linux):
 
 ```bash
 sudo pacman -S --needed \
-  hyprland hyprpaper waybar dunst rofi kanshi \
+  hyprland hyprpaper hypridle hyprlock waybar dunst rofi kanshi \
   kitty foot starship neovim btop fastfetch cava \
   kate dolphin ranger firefox \
   brightnessctl wireplumber networkmanager alsa-utils \
