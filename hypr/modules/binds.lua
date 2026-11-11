@@ -41,6 +41,13 @@ hl.bind(mainMod .. " + P", hl.dsp.window.pseudo(), { description = "Toggle pseud
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("firefox"), { description = "Open browser" })
 
 -- ===================================================
+--                     System
+-- ===================================================
+
+-- Lock the screen (runs hypridle's lock_cmd -> hyprlock)
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("loginctl lock-session"), { description = "Lock screen" })
+
+-- ===================================================
 --                  Special Workspace
 -- ===================================================
 

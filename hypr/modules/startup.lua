@@ -27,6 +27,9 @@ hl.on("hyprland.start", function()
     -- Wallpaper manager
     hl.exec_cmd("hyprpaper")
 
+    -- Idle daemon (locks the screen after a timeout)
+    hl.exec_cmd("hypridle")
+
     -- Fix for Screen Sharing
     hl.exec_cmd(
         "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
